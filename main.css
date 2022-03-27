@@ -1,0 +1,62 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: beige;
+    height: 100vh;
+    font-family: arial;
+}
+h1{
+    color:white;
+    background-color: darkgreen;
+    text-align: center;
+    padding: 10px;
+}
+.capture-form{
+    background-color: rgb(150, 155, 147);
+    box-shadow: 1px 1px 1px 1px #818181;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.capture-form h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+.input-container{
+    padding: 5px;
+}
+.input-container label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.input-container input{
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+}
+.btnSave{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #818181;
+    text-align: center;
+    border: none;
+}
+.alert-error{
+    border: 1px solid #c72e28;
+    background-color: #ce4f4b;
+    color: #420705;
+    padding: 5px;
+}
+.input-error{
+    border: 1px solid #420705;
+    background-color: #c72e28;
+}
